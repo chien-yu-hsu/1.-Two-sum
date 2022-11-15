@@ -1,24 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[89]:
-
-
-nums = [2, 11, 7, 15]
-target = 13
-
-print(nums)
-
-
-# In[90]:
-
-
-num_list = list(zip(range(len(nums)), nums))
-print(num_list)
-
-
-# In[92]:
-
 
 # solution 1 
 
@@ -42,8 +24,6 @@ class Solution:
                 j = j - 1
 
 
-# In[93]:
-
 
 # solution 2 #暴力解
 
@@ -58,13 +38,6 @@ class Solution:
         
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
